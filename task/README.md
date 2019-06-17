@@ -83,11 +83,10 @@ a) 引入依赖
 [官网地址](ihttps://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/)
 
 ```pom.xml
- <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <scope>test</scope>
-</dependency>
+  <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-mail</artifactId>
+ </dependency>
 ```
 b) 配置邮箱的账户和密码
 自动配置属性 application.properties
