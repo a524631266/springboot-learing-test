@@ -47,7 +47,8 @@ public class CommonLoggingTest {
      * @see LogFactoryService
      */
     public void springjcl(){
-        //
+        // jcl 默认是走 LogFactoryService体系的
+        // LogFactoryService本质是继承与LogFactory（common上的）
 //        LogFactoryService;
         // 核心方法,通过adapter适配一个制定的
 //        @Override
@@ -94,5 +95,7 @@ public class CommonLoggingTest {
 //            return false;
 //        }
 //    }
-
+    /**
+     * slf4j原理
+     */
 }
