@@ -3,7 +3,7 @@
     <!-- 定义输出源 -->
     <Appenders>
         <Console name="Console" target="SYSTEM_ERR">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} ---> %msg%n"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} --log4j2-> %msg%n"/>
         </Console>
     </Appenders>
     <!--  具体的日志配置 name =-->
