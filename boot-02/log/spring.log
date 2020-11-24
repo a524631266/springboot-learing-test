@@ -1,0 +1,58 @@
+2020-11-22 11:04:14.204  INFO 8623 --- [main] coderead.boot.Boot02Application          : Starting Boot02Application using Java 1.8.0_212 on TommydeMacBook-Pro.local with PID 8623 (/Users/tommy/git/coderead-spring-boot/boot-02/target/classes started by tommy in /Users/tommy/git/coderead-spring-boot)
+2020-11-22 11:04:14.207  INFO 8623 --- [main] coderead.boot.Boot02Application          : No active profile set, falling back to default profiles: default
+2020-11-22 11:04:14.978  INFO 8623 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-22 11:04:14.986  INFO 8623 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-22 11:04:14.987  INFO 8623 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 11:04:15.047  INFO 8623 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-22 11:04:15.047  INFO 8623 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 790 ms
+2020-11-22 11:04:15.202  INFO 8623 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:04:15.355  INFO 8623 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 11:04:15.365  INFO 8623 --- [main] coderead.boot.Boot02Application          : Started Boot02Application in 1.564 seconds (JVM running for 2.046)
+2020-11-22 11:04:50.474  INFO 8623 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:04:52.550  INFO 8635 --- [main] coderead.boot.Boot02Application          : Starting Boot02Application using Java 1.8.0_212 on TommydeMacBook-Pro.local with PID 8635 (/Users/tommy/git/coderead-spring-boot/boot-02/target/classes started by tommy in /Users/tommy/git/coderead-spring-boot)
+2020-11-22 11:04:52.552  INFO 8635 --- [main] coderead.boot.Boot02Application          : No active profile set, falling back to default profiles: default
+2020-11-22 11:04:53.301  INFO 8635 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-22 11:04:53.308  INFO 8635 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-22 11:04:53.309  INFO 8635 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 11:04:53.357  INFO 8635 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-22 11:04:53.358  INFO 8635 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 768 ms
+2020-11-22 11:04:53.370 DEBUG 8635 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-11-22 11:04:53.370 DEBUG 8635 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-11-22 11:04:53.513  INFO 8635 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:04:53.523 DEBUG 8635 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-11-22 11:04:53.587 DEBUG 8635 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2020-11-22 11:04:53.608 DEBUG 8635 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-11-22 11:04:53.615 DEBUG 8635 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-11-22 11:04:53.701  INFO 8635 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 11:04:53.713  INFO 8635 --- [main] coderead.boot.Boot02Application          : Started Boot02Application in 1.514 seconds (JVM running for 1.988)
+2020-11-22 11:06:49.518  INFO 8635 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:06:52.059  INFO 8654 --- [main] coderead.boot.Boot02Application          : Starting Boot02Application using Java 1.8.0_212 on TommydeMacBook-Pro.local with PID 8654 (/Users/tommy/git/coderead-spring-boot/boot-02/target/classes started by tommy in /Users/tommy/git/coderead-spring-boot)
+2020-11-22 11:06:52.062 DEBUG 8654 --- [main] coderead.boot.Boot02Application          : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-22 11:06:52.064  INFO 8654 --- [main] coderead.boot.Boot02Application          : No active profile set, falling back to default profiles: default
+2020-11-22 11:06:52.757  INFO 8654 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-22 11:06:52.764  INFO 8654 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-22 11:06:52.765  INFO 8654 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 11:06:52.812  INFO 8654 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-22 11:06:52.812  INFO 8654 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 705 ms
+2020-11-22 11:06:52.845  INFO 8654 --- [main] coderead.boot.Boot02Application          : 这是一个普通消息
+2020-11-22 11:06:52.846 ERROR 8654 --- [main] coderead.boot.Boot02Application          : 这是一个异常消息
+2020-11-22 11:06:52.846 DEBUG 8654 --- [main] coderead.boot.Boot02Application          : 这是一个调式消息
+2020-11-22 11:06:52.946  INFO 8654 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:06:53.104  INFO 8654 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 11:06:53.115  INFO 8654 --- [main] coderead.boot.Boot02Application          : Started Boot02Application in 1.327 seconds (JVM running for 1.879)
+2020-11-22 11:13:13.694  INFO 8654 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:16:57.057  INFO 8750 --- [main] c.b.Boot02Application                    : Starting Boot02Application using Java 1.8.0_212 on TommydeMacBook-Pro.local with PID 8750 (/Users/tommy/git/coderead-spring-boot/boot-02/target/classes started by tommy in /Users/tommy/git/coderead-spring-boot)
+2020-11-22 11:16:57.065 DEBUG 8750 --- [main] c.b.Boot02Application                    : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-22 11:16:57.066  INFO 8750 --- [main] c.b.Boot02Application                    : No active profile set, falling back to default profiles: default
+2020-11-22 11:16:57.850  INFO 8750 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-11-22 11:16:57.864  INFO 8750 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-11-22 11:16:57.865  INFO 8750 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 11:16:57.915  INFO 8750 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-11-22 11:16:57.915  INFO 8750 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 798 ms
+2020-11-22 11:16:57.950  INFO 8750 --- [main] c.b.Boot02Application                    : 这是一个普通消息
+2020-11-22 11:16:57.951 ERROR 8750 --- [main] c.b.Boot02Application                    : 这是一个异常消息
+2020-11-22 11:16:57.951 DEBUG 8750 --- [main] c.b.Boot02Application                    : 这是一个调式消息
+2020-11-22 11:16:58.042  INFO 8750 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 11:16:58.186  INFO 8750 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 11:16:58.195  INFO 8750 --- [main] c.b.Boot02Application                    : Started Boot02Application in 1.574 seconds (JVM running for 2.271)
+2020-11-22 11:18:07.790  INFO 8750 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'

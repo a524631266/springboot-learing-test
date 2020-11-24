@@ -1,0 +1,27 @@
+
+server:
+  port: 8082
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: test
+
+---
+server:
+  servlet:
+    context-path: /dev
+spring:
+  config:
+    activate:
+      on-profile: dev
+---
+server:
+  servlet:
+    context-path: /test
+
+spring:
+  config:
+    activate:
+      on-profile: test

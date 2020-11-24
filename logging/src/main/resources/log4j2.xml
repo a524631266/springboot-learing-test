@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="error">
+    <!-- 定义输出源 -->
+    <Appenders>
+        <Console name="Console" target="SYSTEM_ERR">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} ---> %msg%n"/>
+        </Console>
+    </Appenders>
+    <!--  具体的日志配置 name =-->
+    <Loggers>
+        <root  level="debug">
+            <AppenderRef ref="Console"/>
+        </root>
+    </Loggers>
+</Configuration>
